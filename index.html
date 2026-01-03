@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Priya | YCSAS Intern</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+    <h1>Priya</h1>
+    <p>Frontend Developer Intern @ YCSAS</p>
+</header>
+
+<nav class="menu">
+    <a href="#intro">Intro</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#training">Internship</a>
+    <a href="#work">Work</a>
+    <a href="#reach">Contact</a>
+</nav>
+
+<section id="intro" class="block">
+    <h2>Hello 👋</h2>
+    <p>I am Priya, a web development learner passionate about building clean and interactive websites.</p>
+    <button onclick="scrollDown()">Know More</button>
+</section>
+
+<section id="about" class="card">
+    <h2>About Me</h2>
+    <p>
+        I am currently improving my frontend skills.
+        Joining the YCSAS Internship helped me understand real-world development practices.
+    </p>
+</section>
+
+<section id="skills" class="card">
+    <h2>Technical Skills</h2>
+    <div class="tag-box">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Git & GitHub</span>
+        <span>React (Beginner)</span>
+    </div>
+</section>
+
+<section id="training" class="card">
+    <h2>YCSAS Internship</h2>
+    <p>
+        Program: YCSAS Web Development Internship <br>
+        Learned: UI Design, DOM, JavaScript Logic <br>
+        Outcome: Hands-on project experience
+    </p>
+</section>
+
+<section id="work" class="card">
+    <h2>Projects & Tasks</h2>
+    <ul>
+        <li>Personal Portfolio Website</li>
+        <li>JavaScript Form Validation</li>
+        <li>DOM Manipulation Mini Tasks</li>
+    </ul>
+</section>
+
+<section id="reach" class="card">
+    <h2>Get in Touch</h2>
+    <form onsubmit="return checkEmail()">
+        <input type="email" id="userEmail" placeholder="Your Email">
+        <button type="submit">Send</button>
+    </form>
+    <p id="response"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
